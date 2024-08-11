@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* Home Block */
+.home{
+    background-color: #664e4c;
+    width: 100%;
+    height: 100vh;
+}
+.home .nav-bar{
+    background-color: #664e4c;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+.home .nav-bar h3{
+    background-color: #664e4c;
+    color: #f9f5f1;
+    padding-left: 60px;
+    padding-top: 16px;
+    font-size: 25px;
+}
+.home .nav-bar ul{
+    background-color: #664e4c;
+    width: 25%;
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home .nav-bar ul li a {
+    background-color: #664e4c;
+    text-decoration: none;
+    color: #f9f5f1;
+    transition: background-color 10ms ease-in, color 0.5s linear;
+}
+.home .nav-bar ul li a:hover {
+    color: black;
+}
+.home .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5ebe0;
+}
+.home .main .right,.home .main .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home .main .right img{
+    width: 60%;
+    height: 60%;
+    border: solid black 2px transparent;
+    border-radius: 50%;
+    align-self: self-end;
+    margin-right: 150px;
+}
+.home .main .left p{
+    align-self: self-start;
+    padding-left: 151px;
+    font-size: 20px;
+}
+.home .main .left h1{
+    align-self: self-start;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 150px;
+}
+
+/* About-Me Block */
+.about-me{
+    width: 100%;
+    height: 100vh;
+}
+.about-me h1{
+    background-color: #664e4c;
+    color: #d6ccc2;
+    width: 100%;
+    height: fit-content;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.about-me .container{
+    background-color: white;
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about-me .container .outer{
+    background-color: #f5ebe0;
+    width: 35%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me .container .outer img{
+    background-color: #d6ccc2;
+    width: 80%;
+    height: 85%;
+    box-sizing: border-box;
+}
+.about-me .container .def{
+    background-color: white;
+    width: 55%;
+    height: 60%;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+.about-me .container .def p{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 1.1;
+}
+.about-me .container .def h2{
+    color: #b6603e;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.about-me .container .def ul{
+    background-color: white;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 70px;
+}
+.about-me .container .def ul li a{
+    background-color: white;
+    transition: background-color 0.2s ease-in, color 0.5s linear;
+}
+.about-me .container .def ul li:hover{
+    background-color: #b6603e;
+}
+.about-me .container .def ul li a:hover {
+    background-color: #b6603e;
+    color: black;
+}
+
+/* Skills Block */
+.skills{
+    /* background-color: white; */
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+}
+.skills h1{
+    background-color: #664e4c;
+    color: #d6ccc2;
+    width: 100%;
+    height: fit-content;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.skills .skill{
+    background-color: white;
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 5px;
+}
+.skills .skill ul {
+    height: fit-content;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 10%;
+}
+
+.skills .skill ul li {
+    /* background-color: #e3d5ca; */
+    border-radius: 5%;
+    width: 15%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .skill ul li:hover {
+    border-radius: 5%;
+    background-color: #f5ebe0;
+    color: #b6603e;
+    transition: background-color 0.2s ease-in, color 0.2s linear,transform 0.5s ease-in-out;
+    transform: rotateY(40deg);
+
+}
+.skills .skill ul li b{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skills .skill ul li img{
+    width: 60%;
+    height: 70%;
+}
+.skills footer{
+    background-color: #443742;
+    color: white;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+}
