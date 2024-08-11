@@ -70,7 +70,7 @@
 
     /* About Me */
     .about-me .container .def{
-        width: 60%;
+        width: 90%;
         height: 100%;
         margin-top: 0px;
         margin-left: 15px;
@@ -91,12 +91,12 @@
         padding-left: 45px;
     }
     .about-me .container .outer{
-        width: 35%;
-        height: 90%;
-        margin-top: 30px;
+        width: 60%;
+        height: 60%;
+        margin: auto;
+        margin-top: 20px;
     }
     .about-me .container .outer img{
-        background-color: #d6ccc2;
         width: 95%;
         height: 98%;
     }
@@ -108,6 +108,6 @@
         padding-top: 10%;
     }
     .skills .skill ul li {
-        width: 25%;
+        width: 20%;
     }
 }
