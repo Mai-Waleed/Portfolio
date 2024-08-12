@@ -1,39 +1,46 @@
 @media screen and (min-width: 550px) and (max-width: 842px) {
+
     /* Home */
     .home .nav-bar h3 {
         padding-top: 15px;
         padding-left: 5px;
     }
-    .home .nav-bar ul{
+
+    .home .nav-bar ul {
         width: 40%;
     }
-    .home .main .right img{
+
+    .home .main .right img {
         width: 40%;
         height: 40%;
         margin-left: 80px;
     }
-    .home .main .left p{
+
+    .home .main .left p {
         padding-left: 100px;
     }
-    .home .main .left h1{
+
+    .home .main .left h1 {
         font-size: 50px;
         font-weight: bold;
         padding-left: 97px;
     }
 
     /* About Me */
-    .about-me .container .outer img{
+    .about-me .container .outer img {
         width: 95%;
         height: 98%;
     }
-    .about-me .container .def{
+
+    .about-me .container .def {
         background-color: white;
         width: 58%;
         height: 80%;
         margin-top: 120px;
         margin-left: 20px;
     }
-    .about-me .container .def p{
+
+    .about-me .container .def p {
         line-height: 1;
     }
 
@@ -42,72 +49,117 @@
         gap: 70px;
         padding-top: 10%;
     }
+
     .skills .skill ul li {
         width: 22%;
     }
-    
+
 }
-@media screen and (min-width: 200px) and (max-width:550px){
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+    * {
+        background-color: #f5ebe0;
+    }
+
     /* Home */
-    .home .nav-bar h3{
+    .home .nav-bar h3 {
+        background-color: #664e4c;
         padding-left: 10px;
         font-size: 22px;
     }
-    .home .nav-bar ul{
+
+    .home .nav-bar ul {
         width: 45%;
     }
-    .home .main .right{
-        width: 75%;
-        margin-right: -150px;
+
+    .home .main .right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .home .main .left p{
+
+    .home .main .right img {
+        width: 80%;
+        height: 80%;
+        align-self: center;
+        margin-left: 100px;
+    }
+
+    .home .main .left {
+        width: 100%;
+    }
+
+    .home .main .left p {
+        font-size: 30px;
         margin-left: -120px;
     }
-    .home .main .left h1{
-        margin-left: -120px;
-        font-size: 40px;
+
+    .home .main .left h1 {
+        margin-left: -110px;
+        font-size: 80px;
+    }
+
+    .home .right {
+        width: 100%;
     }
 
     /* About Me */
-    .about-me .container .def{
+    .about-me .container {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .about-me .container .def {
+        background-color: white;
         width: 90%;
         height: 100%;
-        margin-top: 0px;
-        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .about-me .container .def p{
-        font-size: 20px;
-        padding-top: 20px;
+
+    .about-me .container .def p {
+        font-size: 40px;
+        padding-top: 10px;
         padding-bottom: 10px;
         line-height: 1.1;
     }
-    .about-me .container .def h2{
-        font-size: 20px;
-        padding-left: 15px;
-        padding-top: 5px;
+
+    .about-me .container .def h2 {
+        font-size: 30px;
+        padding-left: 20px;
+        padding-top: 10px;
     }
-    .about-me .container .def ul{
+
+    .about-me .container .def ul {
         gap: 10px;
-        padding-left: 45px;
+        padding-left: 60px;
     }
-    .about-me .container .outer{
-        width: 60%;
-        height: 60%;
-        margin: auto;
-        margin-top: 20px;
+
+    .about-me .container .outer {
+        width: 100%;
+        margin-top: 5px;
+        /* visibility: hidden; */
     }
-    .about-me .container .outer img{
-        width: 95%;
-        height: 98%;
+
+    .about-me .container .outer img {
+        width: 85%;
+        height: 95%;
+        /* visibility: hidden; */
     }
 
     /* Skills */
     .skills .skill ul {
         height: fit-content;
-        gap: 50px;
+        gap: 80px;
         padding-top: 10%;
     }
+
     .skills .skill ul li {
-        width: 20%;
+        width: 40%;
     }
 }
