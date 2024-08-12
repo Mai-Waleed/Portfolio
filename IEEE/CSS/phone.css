@@ -167,12 +167,14 @@
 
     /* Skills */
     .skills .skill ul {
-        height: fit-content;
-        gap: 80px;
-        padding-top: 10%;
+        height: 100%;
+        gap: 60px;
+        padding-top: 2%;
     }
 
     .skills .skill ul li {
         width: 40%;
+        height: 25%;
+        margin-bottom: 40px;
     }
 }
