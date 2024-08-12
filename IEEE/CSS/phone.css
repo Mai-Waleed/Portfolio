@@ -63,14 +63,20 @@
 
     /* Home */
     .home .nav-bar h3 {
-        background-color: #664e4c;
+        /* background-color: #664e4c;
         padding-left: 10px;
-        font-size: 18px;
+        font-size: 18px; */
+        visibility: hidden;
     }
 
     .home .nav-bar ul {
-        width: 50%;
-        font-size: 20px;
+        width: 100%;
+        font-size: 25px;
+        margin-left: -190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 
     .home .main .right {
@@ -156,7 +162,7 @@
 
     .about-me .container .outer {
         width: 100%;
-        margin-top: 5px;
+        /* margin-top: 5px; */
         /* visibility: hidden; */
     }
 
