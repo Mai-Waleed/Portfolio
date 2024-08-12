@@ -69,7 +69,8 @@
     }
 
     .home .nav-bar ul {
-        width: 60%;
+        width: 50%;
+        font-size: 20px;
     }
 
     .home .main .right {
