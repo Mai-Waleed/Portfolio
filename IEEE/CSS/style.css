@@ -1,16 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
 /* Home Block */
-.home{
+.home {
     background-color: #664e4c;
     width: 100%;
     height: 100vh;
 }
-.home .nav-bar{
+
+.home .nav-bar {
     background-color: #664e4c;
     width: 100%;
     height: 8%;
@@ -19,14 +21,16 @@
     justify-content: space-between;
     position: fixed;
 }
-.home .nav-bar h3{
+
+.home .nav-bar h3 {
     background-color: #664e4c;
     color: #f9f5f1;
     padding-left: 60px;
     padding-top: 16px;
     font-size: 25px;
 }
-.home .nav-bar ul{
+
+.home .nav-bar ul {
     background-color: #664e4c;
     width: 25%;
     list-style: none;
@@ -35,16 +39,19 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .home .nav-bar ul li a {
     background-color: #664e4c;
     text-decoration: none;
     color: #f9f5f1;
     transition: background-color 10ms ease-in, color 0.5s linear;
 }
+
 .home .nav-bar ul li a:hover {
     color: black;
 }
-.home .main{
+
+.home .main {
     width: 100%;
     height: 100%;
     display: flex;
@@ -54,7 +61,9 @@
     align-items: center;
     background-color: #f5ebe0;
 }
-.home .main .right,.home .main .left{
+
+.home .main .right,
+.home .main .left {
     width: 50%;
     height: 100%;
     display: flex;
@@ -62,7 +71,8 @@
     justify-content: center;
     align-items: center;
 }
-.home .main .right img{
+
+.home .main .right img {
     width: 60%;
     height: 60%;
     border: solid black 2px transparent;
@@ -70,12 +80,14 @@
     align-self: self-end;
     margin-right: 150px;
 }
-.home .main .left p{
+
+.home .main .left p {
     align-self: self-start;
     padding-left: 151px;
     font-size: 20px;
 }
-.home .main .left h1{
+
+.home .main .left h1 {
     align-self: self-start;
     font-size: 50px;
     font-weight: bold;
@@ -83,105 +95,120 @@
 }
 
 /* About-Me Block */
-.about-me{
+.about-me {
     width: 100%;
     height: 100vh;
 }
-.about-me h1{
+
+.about-me h1 {
     background-color: #664e4c;
     color: #d6ccc2;
     width: 100%;
-    height: fit-content;
+    height: 10%;
     font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
-.about-me .container{
+
+.about-me .container {
     background-color: white;
     width: 100%;
-    height: 91vh;
+    height: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
-.about-me .container .outer{
+
+.about-me .container .outer {
     background-color: #f5ebe0;
     width: 35%;
-    height: inherit;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about-me .container .outer img{
+
+.about-me .container .outer img {
     background-color: #d6ccc2;
-    width: 80%;
-    height: 85%;
+    width: 90%;
+    height: 90%;
     box-sizing: border-box;
 }
-.about-me .container .def{
+
+.about-me .container .def {
     background-color: white;
     width: 55%;
     height: 60%;
     margin-top: 200px;
     margin-left: 40px;
 }
-.about-me .container .def p{
+
+.about-me .container .def p {
     font-family: Georgia, serif;
     font-size: 20px;
     padding-bottom: 10px;
     line-height: 1.1;
 }
-.about-me .container .def h2{
+
+.about-me .container .def h2 {
     color: #b6603e;
     padding-left: 30px;
     padding-top: 10px;
 }
-.about-me .container .def ul{
+
+.about-me .container .def ul {
     background-color: white;
     list-style: none;
     display: flex;
     gap: 20px;
     padding-left: 70px;
 }
-.about-me .container .def ul li a{
+
+.about-me .container .def ul li a {
     background-color: white;
     transition: background-color 0.2s ease-in, color 0.5s linear;
 }
-.about-me .container .def ul li:hover{
+
+.about-me .container .def ul li:hover {
     background-color: #b6603e;
 }
+
 .about-me .container .def ul li a:hover {
     background-color: #b6603e;
     color: black;
 }
 
 /* Skills Block */
-.skills{
+.skills {
     /* background-color: white; */
     background-color: white;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
-.skills h1{
+
+.skills h1 {
     background-color: #664e4c;
     color: #d6ccc2;
     width: 100%;
-    height: fit-content;
+    height: 10%;
     font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
-.skills .skill{
+
+.skills .skill {
     background-color: white;
     width: 80%;
     height: fit-content;
     margin: auto;
     border-radius: 5px;
 }
+
 .skills .skill ul {
     height: fit-content;
     list-style: none;
@@ -209,11 +236,12 @@
     border-radius: 5%;
     background-color: #f5ebe0;
     color: #b6603e;
-    transition: background-color 0.2s ease-in, color 0.2s linear,transform 0.5s ease-in-out;
+    transition: background-color 0.2s ease-in, color 0.2s linear, transform 0.5s ease-in-out;
     transform: rotateY(40deg);
 
 }
-.skills .skill ul li b{
+
+.skills .skill ul li b {
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -221,11 +249,13 @@
     justify-content: center;
     align-items: center;
 }
-.skills .skill ul li img{
+
+.skills .skill ul li img {
     width: 60%;
     height: 70%;
 }
-.skills footer{
+
+.skills footer {
     background-color: #443742;
     color: white;
     width: 100%;
